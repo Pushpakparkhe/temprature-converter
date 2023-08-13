@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+    background: linear-gradient(
+        
+        135deg,
+        
+        #FFFFFF,
+
+        navy,
+        #1b131f
+    
+    );
+
+}
+
+.container {
+    width: 518px;
+    /*border: 15px solid black;*/
+    /* background: rgba(12, 223, 223, 0.1); */
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 10px rgba(50, 49, 49, .6);
+    height: auto;
+    /* margin-left: ; */
+    margin-bottom: 100%;
+
+}
+
+.hed {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.boxcontainer {
+    display: inlineflex;
+}
+
+p {
+    font-size: 2rem;
+    color: rgb(120, 120, 120);
+    padding: 5px 5px;
+}
+
+.box1 {
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.takval,
+#unit {
+    width: 100%;
+    font-size: 22px;
+    border: none;
+    background-color: solid !important;
+    outline: none;
+    border-bottom: 1px solid rgb(126, 125, 125);
+    color: black;
+}
+
+#unit {
+    font-size: 1.1rem;
+    margin-top: 4.5px;
+}
+
+.takval {
+    color: rgb(27, 38, 250);
+}
+
+.valuecontainer {
+    margin: 10px 0;
+    margin-top: 20px;
+}
+
+.value {
+    width: 100%;
+    height: 30px;
+    margin: 8px 0;
+    font-size: 1.4rem;
+    border-bottom: 1px solid rgb(126, 125, 125);
+    color: rgb(0, 0, 0);
+}
+
+.button {
+    width: 100%;
+    height: auto;
+    font-size: 1.6rem;
+    color: white;
+    background-color: #191970;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 20}
